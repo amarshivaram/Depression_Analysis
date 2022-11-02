@@ -6,6 +6,8 @@ Project titled “Detecting Early Traces of depression through Twitter User Acti
 
 ### Setup
 
+Create Twitter keys from Twitter API Dashboard. 
+
 ```bash
 # Eg. run command to retrieve tweets for keyword "mentalhealth"
 $ python tweet_retrieval.py --searchkey "mentalhealth" --tweetcount 2 --sinceDate "2020-05-27" --untilDate "2020-05-28" --outputFile depress_hash_1.csv 

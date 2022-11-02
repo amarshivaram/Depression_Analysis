@@ -30,11 +30,11 @@ outputFile = args.outputFile
 date_since = "2021-11-15"
 date_until = "2022-02-15"
 
-
-consumer_key = "kGvCdKvelKtJGlTFTHbM4DfMm"
-consumer_secret = "JwKeWNKAuzp6NBWqpS8lfnLO9sU703rjgMECaX0EsKy4lB1uzM"
-access_key = "300140281-52otlFFGMvm2Yn3SUAJkTTkjQhvEu39xSmY37pUG"
-access_secret = "bzL0BtnQ70kGy2O6lECRotJkDmrruybZCneee8SSGBlzC"
+## Create Twitter keys from Twitter API Dashboard. 
+consumer_key = ########### create consumer key
+consumer_secret = ########### create consumer secret
+access_key = ########### create access key
+access_secret = ########### create access secret
 
 
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
